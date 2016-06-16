@@ -36,3 +36,8 @@ class MeizituItem(scrapy.Item):
     image_urls = scrapy.Field()
     images = scrapy.Field()
 
+
+class Website(scrapy.Item):
+    headTitle = scrapy.Field()
+    description = scrapy.Field()
+    url = scrapy.Field()
